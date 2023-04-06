@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="com.icehrm_automation.utility.TestListeners2"/>
+    </listeners>
+    <test name="Regression">
+        <classes>
+            <class name="ice_hrm_Automation.testngExample.Sample1"></class>
+            <class name="ice_hrm_Automation.testngExample.Sample2"></class>
+            <class name="ice_hrm_Automation.testngExample.Sample3"></class>
+            <class name="ice_hrm_Automation.testngExample.Sample4"></class>
+            <class name="ice_hrm_Automation.testngExample.Sample5"></class>
+            <class name="ice_hrm_Automation.testngExample.TestNGExample"></class>
+            
+        </classes>
+    </test>
+</suite>
