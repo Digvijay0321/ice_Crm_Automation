@@ -11,7 +11,7 @@
             <class name="ice_hrm_Automation.testngExample.Sample4"></class>
             <class name="ice_hrm_Automation.testngExample.Sample5"></class>
             <class name="ice_hrm_Automation.testngExample.TestNGExample"></class>
-            
+            <class name="ice_hrm_Automation.testngExample.FileUploadTest"></class> 
         </classes>
     </test>
 </suite>
